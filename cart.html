@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- FONT EXTERNA -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/ecommerce.css">
+        <title>Carrinho</title>
+        <link rel="icon" type="image" href="Image/Icon/icon.png">
+    </head>
+    <body>
+        <!-- TOPO -->
+        <header>
+            <section class="fundo-menu">
+                <section class="menu">
+                    <div class="menu-hamburguer hide-desktop">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <a href="index.html"><img src="Image/icon/logo_green.png" alt="Logo Candleaf"></a>
+                    <ul class="menu-desktop hide-mobile">
+                        <li><a href="#"><p>Discovery</p></a></li>
+                        <li class="first-chevron"><a href="#"><img src="Image/Icon/ChevronDown.png"></a></li>
+                        <li><a href="#"><p>About</p></a></li>
+                        <li class="second-chevron"><a href="#"><img src="Image/Icon/ChevronDown.png" class="hide-desktop"></a></li>
+                        <li><a href="#"><p>Contact us</p></a></li>
+                        <li class="third-chevron"><a href="#"><img src="Image/Icon/ChevronDown.png" class="hide-desktop"></a></li>
+                    </ul>
+                    <div class="conteudo-menu hide-desktop">
+                        <div>
+                            <ul class="menu-mobile">
+                            <li class="first-chevron"><a href="#"><img src="Image/Icon/ChevronDown.png"></a></li>
+                            <li><a href="#"><p>Discovery</p></a></li>
+                            <li class="second-chevron"><a href="#"><img src="Image/Icon/ChevronDown.png" class="hide-mobile"></a></li>
+                            <li><a href="#"><p>About</p></a></li>
+                            <li class="third-chevron"><a href="#"><img src="Image/Icon/ChevronDown.png" class="hide-mobile"></a></li>
+                            <li><a href="#"><p>Contact us</p></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="myarea">
+                        <a href="#"><img src="Image/Icon/Profile.png" alt="ìcone perfil"></a>
+                        <a href="cart.html">
+                            <div class="cart_icon">
+                                <img src="Image/Icon/Cart.png" alt="Ícone carrinho">
+                                <img src="Image/Icon/counter.png" class="counter" alt="Itens no carrinho">
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </section>
+        </header>
+
+        <main>
+            <!-- PRODUTO -->
+            <section class="products">
+                <section class="cart">
+                    <h2>Your cart items</h2>
+                    <a href="index.html">Back to shopping</a>
+                </section>
+                <section class="product">
+                    <div class="product_top">
+                        <p>Product</p>
+                        <p>Price</p>
+                        <p class="hide-mobile">Quantity</p>
+                        <p class="hide-mobile">Total</p>
+                    </div>
+                    <section class="product_cart">
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="Image/Photo/Mobile/Mint_cart.png">
+                            <img src="Image/Photo/Mint_cart.png" alt="Spiced Mint">
+                        </picture>
+                        <div class="product_name">
+                            <h1>Spiced Mint Candleaf&reg;</h1>
+                            <a href="prduct.html">Remove</a>
+                        </div>
+                        <p>$ 9.99</p>
+                        <div class="quantity">
+                            <p class="hide-desktop">Quantity</p>
+                            <div class="total">
+                                <p>+</p>
+                                <p>1</p>
+                                <p>-</p>
+                            </div>
+                        </div>
+                        <p class="hide-mobile">$ 9.99</p>
+                    </section> 
+                </section>
+                <section class="sub-total">
+                    <div class="intructions">
+                        <p>Sub-total</p>
+                        <p>$ 9.99</p>
+                        <p class="tax">Tax and shipping cost will be calculated later</p>
+                    </div>
+                    <a href="" class="button">Check-out</a>
+                </section>
+            </section>
+
+        </main>
+        <!-- FOOTER -->
+        <footer>
+            <section class="footer-background">
+                <section class="footer-black">
+                    <div class="logo-footer">
+                        <picture>
+                            <source media="(max-width:600px)" srcset="Image/Icon/Mobile/logo_pb.png">
+                            <img src="Image/Icon/logo_pb.png" alt="Logo Candleaf black">
+                        </picture>
+                        <p>Your natural candle made for your home and for your wellness.</p>
+                    </div>
+                    <div class="widgets">
+                        <div class="title">
+                            <ul>
+                                <li>
+                                    <h3>Discovery</h3>
+                                </li>
+                                <li>
+                                    <p>New season</p>
+                                </li>
+                                <li>
+                                    <p>Most searched</p>
+                                </li>
+                                <li>
+                                    <p>Most selled</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="title">
+                            <ul>
+                                <li>
+                                    <h3>About</h3>
+                                </li>
+                                <li>
+                                    <p>Help</p>
+                                </li>
+                                <li>
+                                    <p>Shipping</p>
+                                </li>
+                                <li>
+                                    <p>Affiliate</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="title grid-info">
+                            <ul>
+                                <li>
+                                    <h3>Info</h3>
+                                </li>
+                                <li>
+                                    <p>Contact us</p>
+                                </li>
+                                <li>
+                                    <p>Privacy Policies</p>
+                                </li>
+                                <li>
+                                    <p>Terms & Conditions</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <section class="footer-white">
+                <p>&copy;CodeBlue All Rights Reserved.</p>
+                <p class="hide-mobile">Designed by NLG</p>
+            </section>
+        </footer>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/ecommerce.js"></script>
+    </body>
+</html>

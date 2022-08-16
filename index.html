@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- FONT EXTERNA -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/ecommerce.css">
+        <title>Projeto E-Commerce</title>
+        <link rel="icon" type="image" href="Image/Icon/icon.png">
+    </head>
+    <body>
+        <!-- TOPO -->
+        <header>
+            <section class="fundo-menu">
+                <section class="menu">
+                    <div class="menu-hamburguer hide-desktop">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <a href="index.html"><img src="Image/icon/logo_green.png" alt="Logo Candleaf"></a>
+                    <ul class="menu-desktop hide-mobile">
+                        <li><a href="#"><p>Discovery</p></a></li>
+                        <li class="first-chevron"><a href="#"><img src="Image/Icon/ChevronDown.png"></a></li>
+                        <li><a href="#"><p>About</p></a></li>
+                        <li class="second-chevron"><a href="#"><img src="Image/Icon/ChevronDown.png" class="hide-desktop"></a></li>
+                        <li><a href="#"><p>Contact us</p></a></li>
+                        <li class="third-chevron"><a href="#"><img src="Image/Icon/ChevronDown.png" class="hide-desktop"></a></li>
+                    </ul>
+                    <div class="conteudo-menu hide-desktop">
+                        <div>
+                            <ul class="menu-mobile">
+                            <li class="first-chevron"><a href="#"><img src="Image/Icon/ChevronDown.png"></a></li>
+                            <li><a href="#"><p>Discovery</p></a></li>
+                            <li class="second-chevron"><a href="#"><img src="Image/Icon/ChevronDown.png" class="hide-mobile"></a></li>
+                            <li><a href="#"><p>About</p></a></li>
+                            <li class="third-chevron"><a href="#"><img src="Image/Icon/ChevronDown.png" class="hide-mobile"></a></li>
+                            <li><a href="#"><p>Contact us</p></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="myarea">
+                        <a href="#"><img src="Image/Icon/Profile.png" alt="ìcone perfil"></a>
+                        <a href="cart.html">
+                            <div class="cart_icon">
+                                <img src="Image/Icon/Cart.png" alt="Ícone carrinho">
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </section>
+        </header>
+
+        <main>
+            <!-- BANNER -->
+            <section class="banner">
+                <picture>
+                    <source media="(max-width:600px)" srcset="Image/Photo/mobile/bg-image_mobile.png">
+                    <img src="Image/Photo/bg-image.jpg" alt="Banner com flores" style="width: 100%;">
+                </picture>
+                <section class="top">
+                    <div class="card">
+                        <img src="Image/Icon/branch.png" alt="Ícone ramo">
+                        <h1>The nature candle</h1>
+                        <p>All handmade with natural soy wax, Candleaf is a companion for all your pleasure moments</p>
+                    </div>
+                    <a href="#section1" class="button">Discovery our collection</a>
+                </section>
+            </section>
+            
+            <!-- PRODUTOS -->
+            <section class="products">
+                <h2 id="section1">Products</h2>
+                <p>Order it for you or for your beloved ones </p>
+                <ul>
+                    <li class="product-card">
+                        <a href="prduct.html">
+                            <picture>
+                                <source media="(max-width:600px)" srcset="Image/Photo/mobile/Mint.png">
+                                <img src="Image/Photo/Mint.png" alt="Spiced Mint">
+                            </picture>
+                            <div class="bg">
+                                <p>Spiced Mint</p>
+                                <p class="price">9.99$</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-card">
+                        <a href="prduct.html">
+                            <picture>
+                                <source media="(max-width:600px)" srcset="Image/Photo/mobile/Strawberry.png">
+                                <img src="Image/Photo/Strawberry.png" alt="Sweet Strawberry">
+                            </picture>
+                            <div class="bg">
+                                <p>Sweet Strawberry</p>
+                                <p class="price">9.99$</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hide-mobile see product-card">
+                        <a href="prduct.html">
+                            <img src="Image/Photo/Blueberries.png" alt="Cool Blueberries">
+                            <div class="bg">
+                                <p>Cool Blueberries</p>
+                                <p class="price">9.99$</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-card">
+                        <a href="prduct.html">
+                            <picture>
+                                <source media="(max-width:600px)" srcset="Image/Photo/mobile/Lemon.png">
+                                <img src="Image/Photo/Lemon.png" alt="Juicy Lemon">
+                            </picture>
+                            <div class="bg">
+                                <p>Juicy Lemon</p>
+                                <p class="price">9.99$</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hide-mobile see product-card">
+                        <a href="prduct.html">
+                            <img src="Image/Photo/Orange.png" alt="Fresh Orange">
+                            <div class="bg">
+                                <p>Fresh Orange</p>
+                                <p class="price">9.99$</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hide-mobile see product-card">
+                        <a href="prduct.html">
+                            <img src="Image/Photo/Cinnamon.png" alt="Fragrant Cinnamon">
+                            <div class="bg">
+                                <p>Fragrant Cinnamon</p>
+                                <p class="price">9.99$</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hide-mobile see product-card">
+                        <a href="prduct.html">
+                            <img src="Image/Photo/Cherries.png" alt="Summer Cherries">
+                            <div class="bg">
+                                <p>Summer Cherries</p>
+                                <p class="price">9.99$</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-card">
+                        <a href="prduct.html">
+                            <picture>
+                                <source media="(max-width:600px)" srcset="Image/Photo/mobile/Lavander.png">
+                                <img src="Image/Photo/Lavander.png" alt="Clean Lavander">
+                            </picture>
+                            <div class="bg">
+                                <p>Clean Lavander</p>
+                                <p class="price">9.99$</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#section1" class="button see-more">See more</a>
+            </section>
+            <!-- MATÉRIA -->
+            <section class="learn-background">
+                <section class="learn">
+                    <div class="benefits">
+                        <h2>Clean and fragrant soy wax</h2>
+                        <p>Made for your home and for your wellness</p>
+                    </div>
+                    <div class="shadow">
+                        <picture>
+                            <source media="(max-width:600px)" srcset="Image/Photo/Mobile/mockups.png">
+                            <img src="Image/Photo/mockups.png" alt="Mockups">
+                        </picture>
+                    </div>
+                    <div class="feature">
+                        <ul>
+                            <li>
+                                <img src="Image/Icon/checkmark-circle.png" alt="checkmark">
+                                <p><span>Eco-sustainable:</span> All recyclable materials, 0% CO2 emissions</p>
+                            </li>
+                            <li>
+                                <img src="Image/Icon/checkmark-circle.png" alt="checkmark">
+                                <p><span>Hyphoallergenic: </span>100% natural, human friendly ingredients</p>
+                            </li>
+                            <li>
+                                <img src="Image/Icon/checkmark-circle.png" alt="checkmark">
+                                <p><span>Handmade: </span>All candles are craftly made with love.</p>
+                            </li>
+                            <li>
+                                <img src="Image/Icon/checkmark-circle.png" alt="checkmark">
+                                <p><span>Long burning: </span>No more waste. Created for last long.</p>
+                            </li>
+                        </ul>
+                        <a href="#" class="button">Learn more</a>
+                    </div>
+                </section>
+            </section>
+
+            <!-- TESTEMUNHOS -->
+            <section class="testimonial-background">
+                <section class="testimonial">
+                    <h2>Testimonials</h2>
+                    <p>Some quotes from our happy customers</p>
+                    <ul class="cards">
+                        <li class="card-testimo">
+                            <div class="photo">
+                                <picture>
+                                    <source media="(max-width:600px)" srcset="Image/Photo/Mobile/Luisa.png">
+                                    <img src="Image/Photo/Luisa.png" alt="Luisa">
+                                </picture>
+                            </div>
+                            <picture>
+                                <source media="(max-width:600px)" srcset="Image/Icon/Mobile/Stars2.png">
+                                <img src="Image/Icon/Stars2.png" alt="Estrelas">
+                            </picture>
+                            <p>“I love it! No more air fresheners”</p>
+                            <p class="name">Luisa</p>
+                        </li>
+                        <li class="card-testimo">
+                            <div class="photo">
+                                <picture>
+                                    <source media="(max-width:600px)" srcset="Image/Photo/Mobile/Edoardo.png">
+                                    <img src="Image/Photo/Edoardo.png" alt="Edoardo">
+                                </picture>
+                            </div>
+                            <picture>
+                                <source media="(max-width:600px)" srcset="Image/Icon/Mobile/Stars1.png">
+                                <img src="Image/Icon/Stars1.png" alt="Estrelas">
+                            </picture>
+                            <p>“Raccomended for everyone”</p>
+                            <p class="name">Edoardo</p>
+                        </li>
+                        <li class="card-testimo">
+                            <div class="photo">
+                                <picture>
+                                    <source media="(max-width:600px)" srcset="Image/Photo/Mobile/Mart.png">
+                                    <img src="Image/Photo/Mart.png" alt="Mart">
+                                </picture>
+                            </div>
+                            <picture>
+                                <source media="(max-width:600px)" srcset="Image/Icon/Mobile/Stars2.png">
+                                <img src="Image/Icon/Stars2.png" alt="Estrelas">
+                            </picture>
+                            <p>“Looks very natural, the smell is awesome”</p>
+                            <p class="name">Mart</p>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <!-- POPULAR -->
+            <section class="products">
+                <h2>Popular</h2>
+                <p>Our top selling product that you may like</p>
+                <ul>
+                    <li class="product-card">
+                        <a href="prduct.html">
+                            <picture>
+                                <source media="(max-width:600px)" srcset="Image/Photo/mobile/Mint.png">
+                                <img src="Image/Photo/Mint.png" alt="Spiced Mint">
+                            </picture>
+                            <div class="bg">
+                                <p>Spiced Mint</p>
+                                <p class="price">9.99$</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-card">
+                        <a href="prduct.html">
+                            <picture>
+                                <source media="(max-width:600px)" srcset="Image/Photo/mobile/Strawberry.png">
+                                <img src="Image/Photo/Strawberry.png" alt="Sweet Strawberry">
+                            </picture>
+                            <div class="bg">
+                                <p>Sweet Strawberry</p>
+                                <p class="price">9.99$</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hide-mobile product-card">
+                        <a href="prduct.html">
+                            <img src="Image/Photo/Blueberries.png" alt="Cool Blueberries">
+                            <div class="bg">
+                                <p>Cool Blueberries</p>
+                                <p class="price">9.99$</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-card">
+                        <a href="prduct.html">
+                            <picture>
+                                <source media="(max-width:600px)" srcset="Image/Photo/mobile/Lemon.png">
+                                <img src="Image/Photo/Lemon.png" alt="Juicy Lemon">
+                            </picture>
+                            <div class="bg">
+                                <p>Juicy Lemon</p>
+                                <p class="price">9.99$</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hide-desktop product-card">
+                        <a href="prduct.html">
+                            <img src="Image/Photo/Mobile/Lavander.png" alt="Clean Lavander">
+                            <div class="bg">
+                                <p>Clean Lavander</p>
+                                <p class="price">9.99$</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#section1" class="button see-more">See more</a>
+            </section>
+        </main>
+        <!-- FOOTER -->
+        <footer>
+            <section class="footer-background">
+                <section class="footer-black">
+                    <div class="logo-footer">
+                        <picture>
+                            <source media="(max-width:600px)" srcset="Image/Icon/Mobile/logo_pb.png">
+                            <img src="Image/Icon/logo_pb.png" alt="Logo Candleaf black">
+                        </picture>
+                        <p>Your natural candle made for your home and for your wellness.</p>
+                    </div>
+                    <div class="widgets">
+                        <div class="title">
+                            <ul>
+                                <li>
+                                    <h3>Discovery</h3>
+                                </li>
+                                <li>
+                                    <p>New season</p>
+                                </li>
+                                <li>
+                                    <p>Most searched</p>
+                                </li>
+                                <li>
+                                    <p>Most selled</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="title">
+                            <ul>
+                                <li>
+                                    <h3>About</h3>
+                                </li>
+                                <li>
+                                    <p>Help</p>
+                                </li>
+                                <li>
+                                    <p>Shipping</p>
+                                </li>
+                                <li>
+                                    <p>Affiliate</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="title grid-info">
+                            <ul>
+                                <li>
+                                    <h3>Info</h3>
+                                </li>
+                                <li>
+                                    <p>Contact us</p>
+                                </li>
+                                <li>
+                                    <p>Privacy Policies</p>
+                                </li>
+                                <li>
+                                    <p>Terms & Conditions</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <section class="footer-white">
+                <p>&copy;CodeBlue All Rights Reserved.</p>
+                <p class="hide-mobile">Designed by NLG</p>
+            </section>
+        </footer>
+
+        <!-- SCRIPTS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/ecommerce.js"></script>
+    </body>
+</html>
